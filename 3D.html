@@ -11,13 +11,17 @@
             margin: 0;
             padding: 0;
         }
-        body{background: #fff05d}
-        @w: 400px;
+        body{
+			background: #fff05d;
+		}
+        @w: 650px;
         .box{
+			position: relative;
+			left: 50%;
+			top:50%;
+			transform: translate(-50%);
             width: @w;
             height: @w;
-            position: relative;
-            margin: 100px auto 0;
             perspective: 2000px; //景深
             ul{
                 list-style: none;
